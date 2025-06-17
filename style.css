@@ -1,0 +1,65 @@
+body{
+    background-color: antiquewhite;
+    margin-top: 0;
+    bordfe
+}
+header{
+    background: linear-gradient(0.25turn,blue, yellow);
+    top: 0%;
+    left: 0%;
+    right: 0%;
+        h1{
+            color:black;
+            text-align: right;
+            font-size: 40px;
+        }
+    }
+h1{
+    font-family:  "Oswald", sans-serif;
+}
+p{
+    font-family:"Raleway", sans-serif;
+}
+img{
+    width: 500px;
+    height: 500px;
+}
+.contenedor{
+    max-width: auto;
+    padding: 1rem;
+    position: relative;
+    background: linear-gradient(0.25turn,blue, yellow);
+    padding: 3px;
+  }
+.modulo{
+    background: #222;
+  color: white;
+  
+}
+.class{
+    right: ;
+}
+main{
+    padding: 2rem;
+    text-align: center;
+}
+.circulo{
+    height:100px;
+    width:100px;
+    background:linear-gradient(0.25turn,blue, yellow);
+        -moz-border-radius:50px;
+        -webkit-border-radius:50px;
+    border-radius:50px;
+    right: 0%;
+}
+.circulo2{
+    height:100px;
+    width:100px;
+    background:linear-gradient(0.25turn,blue, yellow);
+        -moz-border-radius:50px;
+        -webkit-border-radius:50px;
+    border-radius:50px;
+    right: 0%;
+    padding: 5px;
+}
+
