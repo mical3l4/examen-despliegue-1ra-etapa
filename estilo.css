@@ -1,0 +1,152 @@
+/* Estilos base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    scroll-behavior: smooth;
+    color: #333;
+  }
+  
+  /* Hero Header */
+  .hero {
+    height: 100vh;
+    background: url('img/header-bg.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    position: relative;
+  }
+  
+  .hero::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 10px 25px;
+    background: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    transition: background 0.3s;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #005fa3;
+  }
+  
+  /* Secciones generales */
+  section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  section h2,
+  section p {
+    text-align: center;
+  }
+  
+  section p {
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+  }
+  
+  /* About */
+  .about {
+    background-color: white;
+  }
+  
+  /* Instituto IDT */
+  .instituto {
+    background-color: white;
+  }
+  
+  /* Gallery */
+  .gallery {
+    background-color: #eee;
+  }
+  
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+  }
+  
+  .gallery-container img {
+    width: 250px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .gallery-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  }
+  
+  /* CTA */
+  .cta {
+    background: #333;
+    color: white;
+  }
+  
+  #cta-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: #00b894;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  #cta-btn:hover {
+    background: #019875;
+  }
+  
+  /* Footer */
+  footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Scroll reveal */
+  .hidden {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.6s ease-out;
+  }
+  
+  .visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
