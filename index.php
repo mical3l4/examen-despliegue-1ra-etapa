@@ -22,7 +22,7 @@
    <main>
    <h1>Congreso Internacional de Marketing</h1>
    <p>El próximo 12 de diciembre de 2024, se llevará a cabo el Congreso Virtual de Marketing Educativo, un evento pensado para empoderar a instituciones educativas en toda Latinoamérica. Este congreso reúne a expertos internacionales que compartirán estrategias prácticas para maximizar matriculaciones, fidelizar estudiantes y posicionar a las instituciones como líderes en el sector educativo.</p><br>
-   <img src="./descarga.jpg" alt="descraga"><div class="class">
+   <img src="./usuario.png" alt="usuario"><div class="class">
     <p>¿Por qué asistir al Congreso? Las instituciones educativas enfrentan grandes desafíos: mantener el crecimiento de matrículas, gestionar equipos de admisiones eficaces, determinar precios competitivos y conectar emocionalmente con los estudiantes. Este evento ofrece soluciones innovadoras a través de conferencias de alto impacto y acceso exclusivo a herramientas de vanguardia. </p></div>
     <div class="circulo"></div>
     <div class="circulo2"></div>

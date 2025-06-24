@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Congreso Internacional de Marketing Educativo</title>
   <link rel="stylesheet" href="estilo.css">
+  
   <style>
     /* ESTILOS GENERALES */
     body {
@@ -86,6 +87,14 @@
       opacity: 1;
       transform: translateY(0);
     }
+    .columnas{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+        img{
+          width: 100px;
+          height: 100px;
+        }
+    }
   </style>
 </head>
 <body>
@@ -116,6 +125,19 @@
 
     <div class="card fade-in">
       <p>Una experiencia de aprendizaje, innovación y proyección global que demuestra cómo las instituciones educativas pueden marcar la diferencia comunicando con claridad, propósito y emoción.</p>
+    </div>
+
+    <div class="card fade-in">
+      <strong>Publica tu experiencia</strong> <p>si formaste parte de esta experiencia ven y haz <a href="./formulario.html">Click Aquí</a> para poder publicar tu experiencia.</p>
+    </div>
+
+    <div class="columnas">
+      <div class="card fade-in">
+        <strong>Inicia Sessión</strong> <img src="./usuario.png" alt="usuario"><div class="class"> <a href="./formulario.html">Click Aquí</a> </p>
+      </div>
+      <div class="card fade-in">
+        <strong>Publica Algo</strong> <img src="./redaccion.png" alt="publi"><div class="class"> <a href="./formulario.html">Click Aquí</a> </p>
+      </div>
     </div>
   </section>
 
